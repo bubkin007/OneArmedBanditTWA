@@ -1,4 +1,4 @@
-<!doctype html><html><head><title>One Armed Bandit</title><script src="https://telegram.org/js/telegram-web-app.js"></script><script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script><link rel="stylesheet" href="https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap-reboot.min.css"/><script defer="defer" src="bundle.d7b7a6feed192ea69eef.js"></script><link href="main.fac1e1ab15b8e5aebc67.css" rel="stylesheet"></head><body><script>const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+<!doctype html><html><head><title>One Armed Bandit</title><script src="https://telegram.org/js/telegram-web-app.js"></script><script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script><link rel="stylesheet" href="https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap-reboot.min.css"/><script defer="defer" src="bundle.d7b7a6feed192ea69eef.js"></script><link href="main.fac1e1ab15b8e5aebc67.css" rel="stylesheet"></head><body><div id="ton-connect" hidden="true"></div><script>const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
           manifestUrl: 'https://bubkin007.github.io/bubkin007/tonconnect-manifest.json',
           buttonRootId: 'ton-connect'
       });</script><script>async function connectToWallet() {
@@ -6,8 +6,8 @@
         // Do something with connectedWallet if needed
         console.log(connectedWallet);
     }
-
+      <div id="ton-connect"></div>
     // Call the function
     connectToWallet().catch(error => {
         console.error("Error connecting to wallet:", error);
-    });</script><div id="slot"><div id="ton-connect"></div><div id="balance">BALANCE<span id="count">NULL</span></div><div id="jackpot">TELEGRAM MINI APP<span id="jp">SLOT</span></div><div id="reels"><div class="reel"></div><div class="reel"></div><div class="reel"></div><div class="reel"></div><div class="reel"></div></div><div id="controls"><button type="button" id="spin" class="button"><span>SPIN</span></button></div></div></body></html>
+    });</script><div id="slot"><div id="balance">BALANCE<span id="count">NULL</span></div><div id="jackpot">TELEGRAM MINI APP<span id="jp">SLOT</span></div><div id="reels"><div class="reel"></div><div class="reel"></div><div class="reel"></div><div class="reel"></div><div class="reel"></div></div><div id="controls"><button type="button" id="spin" class="button"><span>SPIN</span></button></div></div></body></html>
