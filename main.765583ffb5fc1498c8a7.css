@@ -2,7 +2,8 @@ body {
 	width: 100vw;
 	height: 100vh;
 	padding: 1rem;
-	background-image: url(icons/f701ac7876618c57d1b6.svg);
+	background: rgb(2,0,36);
+	background: linear-gradient(331deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -11,7 +12,8 @@ body {
   }
   @media only screen and (max-width: 1200px) {
 	body {
-	  background-image: url(icons/f701ac7876618c57d1b6.svg);
+		background: rgb(2,0,36);
+		background: linear-gradient(331deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 	}
   }
   #reels {
@@ -65,10 +67,7 @@ body {
 	font-size: 40px;
 	text-align: center;
   }
-  #slot.inverted .reel {
-  }
-  #slot.inverted .reel > .icons > img {
-  }
+
   button#spin{
 	box-shadow:inset 0px 1px 0px 0px #a6827e;
 	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
