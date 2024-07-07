@@ -32,12 +32,9 @@ body {
     overflow: hidden;
   }
   #controls {
-	height: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 30px;
-	padding-left: 44%;
   }
   button#spin{
 	width: 30%;
