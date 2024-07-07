@@ -35,6 +35,7 @@ body {
   .reel > .icons > img {
 	position: relative;
     overflow: hidden;
+	margin: 29%;
 	
   }
   #controls {
