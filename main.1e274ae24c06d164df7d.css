@@ -8,7 +8,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
   }
   #balance{
 	font-size: 21.5px;
@@ -27,7 +26,6 @@ body {
 	overflow: hidden;
 	width: 20%;
 	height: 100%;
-	position: relative;
   }
   .reel > .icons {
 	position: relative;
@@ -38,12 +36,31 @@ body {
     overflow: hidden;
   }
   #controls {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  #controls div{
+	flex: 1;
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+  }
+   #flexwrapper
+  {
+	width: 100%;
+	display: flex;
+	align-items: center;
+  }
+  #flexwrapper div{
+	flex: 1;
+	display: flex;
 	align-items: center;
   }
   button#spin{
-	width: 30%;
 	box-shadow: 0px 1px 0px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
 	background-color:#ffec64;
@@ -55,16 +72,15 @@ body {
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
   }
-.button#spin:hover {
+button#spin:hover {
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 	background-color:#ffab23;
 }
 
-.button#spin:active {
+button#spin:active {
 	position:relative;
 	top:1px;
 }
