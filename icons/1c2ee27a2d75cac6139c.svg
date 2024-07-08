@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+  <g filter="url(#a)">
+    <path fill="url(#b)" d="M500 250a250 250 0 0 1-250 250A250 250 0 0 1 0 250a250 250 0 0 1 500 0"></path>
+    <path fill="url(#c)" d="M500 250a250 250 0 0 1-250 250A250 250 0 0 1 0 250a250 250 0 0 1 500 0"></path>
+  </g>
+  <mask id="f" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+    <path fill="url(#d)" d="M500 250a250 250 0 0 1-250 250A250 250 0 0 1 0 250a250 250 0 0 1 500 0"></path>
+    <path fill="url(#e)" d="M500 250a250 250 0 0 1-250 250A250 250 0 0 1 0 250a250 250 0 0 1 500 0"></path>
+  </mask>
+  <g mask="url(#f)" fill="#fff">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M136.177 232.491c0-53.159 43.098-96.254 96.262-96.254h270.004v28.125H232.438c-37.63 0-68.135 30.502-68.135 68.129v97.447c0 37.627 30.505 68.129 68.135 68.129h224.234v28.125H232.438c-53.164 0-96.262-43.094-96.262-96.254z"></path>
+    <path d="M209.854 236c0-19.115 15.496-34.61 34.612-34.61h250.838c1.374 6.622 3.249 19.424 3.9 28.125H244.466a6.484 6.484 0 0 0-6.485 6.485v24.607a6.484 6.484 0 0 0 6.485 6.485H432.98v28.125H244.466c-19.116 0-34.612-15.496-34.612-34.61z"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M555.176 313.99c0-25.909-21.005-46.914-46.917-46.914H299.868v28.125h208.391c10.378 0 18.79 8.412 18.79 18.789s-8.412 18.789-18.79 18.789H227.815v28.125h280.443c25.912 0 46.917-21.004 46.917-46.914"></path>
+  </g>
+  <defs>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-22.35 1111.433 472.022)scale(881.37)">
+      <stop offset=".422" stop-color="#402AFD"></stop>
+      <stop offset="1" stop-color="#0EFFD4"></stop>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(360.00018 -177.6004 94.0237 190.58822 158.4 118.4)">
+      <stop stop-color="#AAFCFF"></stop>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-22.35 1111.433 472.022)scale(881.37)">
+      <stop offset=".422" stop-color="#402AFD"></stop>
+      <stop offset="1" stop-color="#0EFFD4"></stop>
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(360.00018 -177.6004 94.0237 190.58822 158.4 118.4)">
+      <stop stop-color="#AAFCFF"></stop>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+    </radialGradient>
+    <filter id="a" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset></feOffset>
+      <feGaussianBlur stdDeviation="24.152"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+      <feColorMatrix values="0 0 0 0 0.160349 0 0 0 0 0.114062 0 0 0 0 0.9125 0 0 0 1 0"></feColorMatrix>
+      <feBlend in2="shape" result="effect1_innerShadow_14_465"></feBlend>
+    </filter>
+  </defs>
+</svg>
